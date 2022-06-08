@@ -1,0 +1,221 @@
+.container{
+
+    background-blend-mode: hue;
+    width: 30%;
+    padding: 16px;
+    box-shadow: 20px 20px 20px 0px rgba(0,0,0, 0.7);
+
+}
+input[type='text']
+input[type='password']
+{
+    width: 100%;
+    max-height: max-content;
+    padding: 30px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background:whitesmoke;
+}
+
+
+
+html { 
+    background: url("2.jpg")  no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+.login{  
+        width: 300px;  
+        overflow: hidden;  
+        margin: 20 0 0 450px;  
+        padding: 80px;  
+        background: lightsteelblue;  
+        border-radius: 15px ;  
+        left: auto;
+    
+ 
+    
+          
+}  
+h2{  
+    text-align: center;  
+    color: #277582;  
+    padding: 20px;  
+}  
+label{  
+    color: #08ffd1;  
+    font-size: 17px;  
+}  
+#Uname{  
+    width: 300px;  
+    height: 30px;  
+    border: none;  
+    border-radius: 3px;  
+    padding-left: 8px;  
+}  
+#password{  
+    width: 300px;  
+    height: 30px;  
+    border: none;  
+    border-radius: 3px;  
+    padding-left: 8px;  
+      
+}  
+#log{  
+    width: 150px;  
+    height: 30px;  
+    border: none;  
+    border-radius: 17px;  
+    padding-left: 7px;  
+    color: blue;  
+  
+}  
+span{  
+    color: white;  
+    font-size: 17px;  
+}  
+a{  
+    float: right;  
+    background-color: grey;  
+}  
+#nextpage1{
+    width: 150px;  
+    height: 30px;  
+    border:#277582;
+    position: relative;
+
+    border-radius: 07px;  
+    padding-left: 7px;  
+    color: blue;  
+
+}
+#registerform1
+{
+  background-blend-mode: red;
+  box-shadow: 20px 20px 20px 0px rgba(0,0,0, 0.7);
+
+}
+#nextpage2{
+    width: 160px;  
+    height: 30px;  
+    border:aqua ;
+    border-radius: 17px;  
+    /* padding-left: 7px; */
+    position:relative;
+    left: -50%;  
+    color: blue;  
+}
+.error {
+    background: #F2DEDE;
+    color: #A94442;
+    padding: 10px;
+    width: 95%;
+    border-radius: 5px;
+    margin: 20px auto;
+ }
+ .button {
+    background-color: wheat ; /* Green */
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+  .button3:hover {
+    background-color: #f44336;
+    color: white;
+  }
+
+  .bg-image-vertical {
+    position: relative;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: auto 100%;
+    }
+    
+    @media (min-width: 1025px) {
+    .h-custom-2 {
+    height: 100%;
+    }
+    }
+    /* <!-- HTML !--> */
+    /* <button class="button-85" role="button">Button 85</button> */
+    
+    /* CSS */
+/* #button1{ */
+    #button1.button-85 {
+      padding: 0.6em 2em;
+      border: none;
+      outline: none;
+      color: rgb(255, 255, 255);
+      background: #111;
+      cursor: pointer;
+      position: relative;
+      z-index: 0;
+      border-radius: 10px;
+      user-select: none;
+      -webkit-user-select: none;
+      touch-action: manipulation;
+    }
+    
+    #button1 .button-85:before {
+      content: "";
+      background: linear-gradient(
+        45deg,
+        #ff0000,
+        #ff7300,
+        #fffb00,
+        #48ff00,
+        #00ffd5,
+        #002bff,
+        #7a00ff,
+        #ff00c8,
+        #ff0000
+      );
+      position: absolute;
+      top: -2px;
+      left: -2px;
+      background-size: 400%;
+      z-index: -1;
+      filter: blur(5px);
+      -webkit-filter: blur(5px);
+      width: calc(100% + 4px);
+      height: calc(100% + 4px);
+      animation: glowing-button-85 20s linear infinite;
+      transition: opacity 0.3s ease-in-out;
+      border-radius: 10px;
+    }
+    
+    @keyframes glowing-button-85 {
+      0% {
+        background-position: 0 0;
+      }
+      50% {
+        background-position: 400% 0;
+      }
+      100% {
+        background-position: 0 0;
+      }
+    }
+    
+    #button1.button-85:after {
+      z-index: -1;
+      content: "";
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      background: #222;
+      left: 0;
+      top: 0;
+      border-radius: 10px;
+    }
+/* } */
